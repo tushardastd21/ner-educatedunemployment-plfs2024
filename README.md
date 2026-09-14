@@ -32,5 +32,4 @@ Using unit-record microdata from the Periodic Labour Force Survey (PLFS 2023–2
 ├── 02 - descriptive statistics.R     <- LFPR, WPR, UR & education/gender intersectional tables
 ├── 03 - regression_model.R          <- Main Firth-penalized multinomial logit (brglm2) & VIF tests
 ├── 04 - sikkim.R                     <- District structural analysis, svyttest & Sikkim deep-dive
-├── .gitignore                        <- Prevents raw microdata upload
 └── README.md                         <- Project documentation & reproduction steps
