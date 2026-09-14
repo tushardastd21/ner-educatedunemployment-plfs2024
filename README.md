@@ -24,12 +24,13 @@ Using unit-record microdata from the Periodic Labour Force Survey (PLFS 2023–2
 ├── 01 - data/
 │   ├── district_code.xlsx            <- District-level mapping & terrain lookup metadata
 │   └── (Raw PLFS files excluded)     <- cperv1.csv & chhv1.csv (Obtain from MoSPI)
+├── 02 - scripts/
+│   ├── 01 - data_cleaning.R          <- Microdata ingestion, design weights & NEET domain filter
+│   ├── 02 - descriptive statistics.R <- LFPR, WPR, UR & education/gender intersectional tables
+│   ├── 03 - regression_model.R       <- Main Firth-penalized multinomial logit (brglm2) & VIF tests
+│   └── 04 - sikkim.R                 <- District structural analysis, svyttest & Sikkim deep-dive
 ├── 03 - output/                      <- Model estimates, CSV tables, and GT HTML outputs
 │   ├── 01 - descriptive/             <- Summary statistics & macro indicators
 │   ├── 02 - models/                  <- Firth multinomial regression output tables (CSV/HTML)
 │   └── 03 - sikkim/                  <- District terrain variance & Sikkim sectoral breakdowns
-├── 01 - data_cleaning.R              <- Microdata ingestion, design weights & NEET domain filter
-├── 02 - descriptive statistics.R     <- LFPR, WPR, UR & education/gender intersectional tables
-├── 03 - regression_model.R          <- Main Firth-penalized multinomial logit (brglm2) & VIF tests
-├── 04 - sikkim.R                     <- District structural analysis, svyttest & Sikkim deep-dive
 └── README.md                         <- Project documentation & reproduction steps
