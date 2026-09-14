@@ -1,0 +1,26 @@
+=== PRIMARY TEST: Design-weighted svyttest, individual-level FE status ===
+
+	Design-based t-test
+
+data:  fe ~ factor(terrain)
+t = 0.99834, df = 1229, p-value = 0.3183
+alternative hypothesis: true difference in mean is not equal to 0
+95 percent confidence interval:
+ -0.01956765  0.06011605
+sample estimates:
+difference in mean 
+         0.0202742 
+
+
+
+=== ROBUSTNESS CHECK ONLY: Unweighted district-level Wilcoxon rank-sum ===
+(Treats each district as one observation; ignores survey design.
+ Do not cite this as the primary test -- for sanity-check purposes only.)
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  FE Share (%) by Terrain
+W = 1215.5, p-value = 0.7795
+alternative hypothesis: true location shift is not equal to 0
+

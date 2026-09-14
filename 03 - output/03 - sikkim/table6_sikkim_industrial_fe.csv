@@ -1,0 +1,6 @@
+Industrial Sub-Sector,Unweighted n,Estimated FE Count,FE Count SE,Share of Industrial FE (%),Small Cell Flag
+Pharmaceuticals,27,9850,4048,64.63,CAUTION: n<30
+Consumables (Food/Bev),4,2066,1418,13.56,CAUTION: n<30
+Other Industry,4,1718,1403,11.27,CAUTION: n<30
+Heavy Industry (Metals/Chem),5,1091,650,7.16,CAUTION: n<30
+Light Industry (Textiles/Wood),1,516,516,3.39,CAUTION: n<30

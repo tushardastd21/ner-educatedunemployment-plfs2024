@@ -1,0 +1,7 @@
+Service Sub-Sector,Unweighted n,Estimated FE Count,FE Count SE,Share of Service FE (%),Small Cell Flag
+Public Admin & Defence,73,17859,2821,52.14,
+Education & Health,35,5550,1755,16.2,
+Tourism (Hotel/Rest.),22,4696,1299,13.71,CAUTION: n<30
+Other Services,20,2644,999,7.72,CAUTION: n<30
+Transport & Storage,7,1927,1029,5.63,CAUTION: n<30
+Trade & Retail,10,1573,698,4.59,CAUTION: n<30
