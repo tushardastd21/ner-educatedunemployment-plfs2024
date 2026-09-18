@@ -3,7 +3,7 @@
 This repository contains the full R replication codebase for the empirical paper evaluating youth labor absorption, formal employment bottlenecks, and regional structural dichotomies across India's North-Eastern Region (NER).
 
 - **Author:** Tushar Das (Centre for Economic Studies and Planning, Jawaharlal Nehru University)
-- **Working Paper ([SSRN]([url](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7458564)))**
+- **Working Paper ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7458564))**
 - **Target Journal / Status:** Under review at *Indian Journal of Labour Economics* (IJLE)
 
 ---
